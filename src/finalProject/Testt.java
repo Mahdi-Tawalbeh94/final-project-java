@@ -74,7 +74,7 @@ public class Testt extends parameeter {
 		driver.navigate().back();
 				Thread.sleep(3000);
 		
-///		// add second element
+///	    Add second element
 		driver.findElement(
 				By.xpath("//*[@id=\"maincontent\"]/div[3]/div/div[2]/div[3]/div/div/ol/li[2]/div/a/span/span/img")).click();
 		String[] elem2Size = { "//*[@id=\"option-label-size-143-item-166\"]",
